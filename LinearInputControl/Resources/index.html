@@ -1,0 +1,16 @@
+<html>
+<head>
+    <script>
+        let globalFormContext;
+        function setFormContextGlobal(xrm,formContext){
+            window.Xrm = xrm;
+            window._formContext = formContext;
+            globalFormContext = formContext;
+            alert("Form Context is defined");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
